@@ -1,0 +1,45 @@
+/* body {
+    background: red;
+} */
+
+section {
+    width: 100%;
+    min-height: 120vh;
+    margin: 0;
+    text-align: center;
+    padding: 50px 0;
+    background: url("../img/fondo1.jpg");
+    background-size: cover;
+}
+h1{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    background: black;
+    background-size: cover;
+    border: 1px solid black;
+}
+p{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+button {
+    padding: 12px 40px;
+    margin: 15px;
+    background: rgb(133, 22, 46);
+    font-size: 20px;
+    border: 2px solid rgb(8, 8, 8);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s;
+    color: rgb(255, 255, 255);
+}
+button:hover{
+
+    border-radius: 0;
+    border: 2px dotted rgb(252, 250, 253);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background: darkgreen;
+    background-size: cover;
+}
